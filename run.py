@@ -157,7 +157,7 @@ def main():
     update_worksheet(stock_data, "stock")
     return stock_data
 
-print("Welcome to Love Sandwiches Data Automation.\n")
+print("\U0001F96A Welcome to Love Sandwiches Data Automation.\U0001F96A\n")
 stock_data = main()
 
 # Write you code below this comment
@@ -170,7 +170,7 @@ def get_stock_values(data):
 
     # headings = SHEET.worksheet('stock').row_values(1)
 
-    print("Make the following numbers of sandwiches for next market:\n")
+    print("\U0001F96A Make the following numbers of sandwiches for next market:\n")
 
     # new_data = {}
     # for heading, stock_num in zip(headings, data):
